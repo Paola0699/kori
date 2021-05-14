@@ -493,7 +493,7 @@
       width: 80%;
     }
     .processimg{
-      width: 90%;
+      width: 95%;
     }
   }
   
@@ -632,7 +632,7 @@
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #1acc8d;
+    background: #0070b8;
     margin: 4px 10px;
   }
   
@@ -1425,7 +1425,7 @@
   }
   
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #1acc8d;
+    background: #0070b8;
     color: #fff;
   }
   
@@ -1474,7 +1474,7 @@
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
+    border: 3px solid #0070b8;
     border-top-color: #eee;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
@@ -1495,7 +1495,7 @@
   }
   
   .contact .php-email-form button[type="submit"] {
-    background: #1acc8d;
+    background: #0070b8;
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -1504,7 +1504,7 @@
   }
   
   .contact .php-email-form button[type="submit"]:hover {
-    background: #34e5a6;
+    background: #010483;
   }
   
   @-webkit-keyframes animate-loading {
@@ -1543,7 +1543,7 @@
     margin-bottom: 15px;
     background: #010246;
     color: #fff;
-    border-top: 4px solid #1acc8d;
+    border-top: 4px solid #0070b8;
     text-align: center;
     padding: 30px 20px;
   }

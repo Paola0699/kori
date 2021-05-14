@@ -47,7 +47,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-      <!--   <h1><a href="index.html"><span>Bootslander</span></a></h1> -->
+        <!--   <h1><a href="index.html"><span>Bootslander</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="logofinal.png" alt="" class="img-fluid"></a>
       </div>
@@ -102,23 +102,168 @@
       </video>
     </div>
   </div>
-  
+
   <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about" style="background: aliceblue;">
       <div class="container-fluid">
 
         <div class="row">
-          <div class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-center justify-content-center py-5 px-lg-5">
+          <div
+            class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-center justify-content-center py-5 px-lg-5">
             <h3>Nuestro Proceso</h3>
             <p>Brindamos soluciones tecnológicas conforme a tus necesidades.</p>
-            <img src="process2.png" class='processimg'/>
+            <img src="process2.png" class='processimg' />
           </div>
         </div>
       </div>
     </section><!-- End About Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contacto</h2>
+          <p>Contáctanos</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Ubicación:</h4>
+                <p>Pachuca de Soto, Hidalgo, México</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Correo Electrónico:</h4>
+                <p>contacto@kori.digital</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Teléfono:</h4>
+                <p>+1 5589 55488 55</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
   </main>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Kōri</h3>
+              <p class="pb-3"><em>Brindamos soluciones tecnológicas conforme a tus necesidades.</em>
+              </p>
+              <p>
+               Pachuca de Soto <br>
+               Hidalgo, México<br><br>
+                <strong>Teléfono:</strong> +1 5589 55488 55<br>
+                <strong>Correo electrónico:</strong> info@kori.digital<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+               <!--  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <!-- <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul> -->
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <!-- <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <!-- <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+ -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kori</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+       <!--  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
