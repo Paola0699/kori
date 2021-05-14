@@ -1,4 +1,6 @@
-
+.processimg{
+  width: 60%;
+}
 .section {
   position: relative;
   width: 100%;
@@ -123,7 +125,7 @@
   }
   
   .back-to-top:hover {
-    background: #2be4a2;
+    background: #0070b8;
     color: #fff;
   }
   
@@ -489,6 +491,9 @@
   @media (max-width: 575px) {
     #hero .hero-img img {
       width: 80%;
+    }
+    .processimg{
+      width: 90%;
     }
   }
   
