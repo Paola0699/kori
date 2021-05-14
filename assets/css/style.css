@@ -1,5 +1,6 @@
 .processimg{
   width: 60%;
+  margin-bottom: 5%;
 }
 .section {
   position: relative;
@@ -42,12 +43,12 @@
   }
   
   a {
-    color: #1acc8d;
+    color: #0070b8;
     text-decoration: none;
   }
   
   a:hover {
-    color: #34e5a6;
+    color: #0070b8;
     text-decoration: none;
   }
   
