@@ -72,7 +72,7 @@
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #1acc8d;
+    border: 6px solid #0070b8;
     border-top-color: #d2f9eb;
     border-radius: 50%;
     width: 60px;
@@ -109,7 +109,7 @@
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #1acc8d;
+    background: #0070b8;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -335,7 +335,7 @@
     right: 0;
     left: 0;
     bottom: 0;
-    background: rgba(1, 3, 91, 0.9);
+    background: rgba(0, 112, 184, 0.9);
     transition: 0.3s;
     z-index: 999;
   }
