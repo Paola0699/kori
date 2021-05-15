@@ -881,7 +881,7 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background: #f5f5ff;
+    background: #f8f8ff;
     transition: ease-in-out 0.3s;
   }
   
@@ -1096,7 +1096,7 @@
   }
   
   .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #1acc8d;
+    background-color: #0070b8;
   }
   
   @media (min-width: 1024px) {
