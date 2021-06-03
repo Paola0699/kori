@@ -1,7 +1,6 @@
 <?php
     // Only process POST reqeusts.
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
         $name = str_replace(array("\r","\n"),array(" "," "),$name);
@@ -43,11 +42,4 @@
             http_response_code(500);
             echo "Oops! algo sucedio porfavor intentarlo de nuevo.";
         }
-
-    } else {
-        // Not a POST request, set a 403 (forbidden) response code.
-        http_response_code(403);
-        echo " Hubo un problema con tu envio, verifica tus datos y envialo de nuevo.";
-    }
-
 ?>
