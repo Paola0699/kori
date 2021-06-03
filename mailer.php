@@ -1,7 +1,6 @@
 <?php
     // Only process POST reqeusts.
-    echo $_POST["name"]
-    echo $POST["email"]
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
@@ -9,6 +8,8 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL); 
         $phone = trim($_POST["phone_number"]);
         $message = trim($_POST["message"]);
+        echo $name
+        echo $email
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
