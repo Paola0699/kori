@@ -8,9 +8,7 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL); 
         $phone = trim($_POST["phone_number"]);
         $message = trim($_POST["message"]);
-        echo $name
-        echo $email
-
+        
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
