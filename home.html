@@ -84,7 +84,7 @@
 
     </div>
   </header><!-- End Header -->
-  
+
 
   <div class="section">
 
@@ -131,7 +131,7 @@
         <div class="row" data-aos="fade-left">
           <div class="col-lg-4 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
-             <img src='./assets/img/icons/internet-of-things.png' style="margin-right: 5%">
+              <img src='./assets/img/icons/internet-of-things.png' style="margin-right: 5%">
 
               <p><b><a href="">Internet of Things</a></b><br />
                 Implementamos el internet de las cosas para brindar nuevas funcionalidades como la automatización de
@@ -230,7 +230,10 @@
                 <h4>CTO</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Soy un profesionista con capacidad de adaptación, autodidacta ordenado y responsable. Mis habilidades técnicas son el conocimiento de varios lenguajes de programación como Python, JavaScript, C++ y manejo de bases de datos, además de certificaciones en SCRUM e ITILv4. Mis hobbies son el ejercicio, la lectura y los videojuegos.
+                  Soy un profesionista con capacidad de adaptación, autodidacta ordenado y responsable. Mis habilidades
+                  técnicas son el conocimiento de varios lenguajes de programación como Python, JavaScript, C++ y manejo
+                  de bases de datos, además de certificaciones en SCRUM e ITILv4. Mis hobbies son el ejercicio, la
+                  lectura y los videojuegos.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -297,18 +300,23 @@
             <form action="mailer.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                  <input type="text" id="name" name="name" required="" class="form-control" placeholder="Nombre">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Correo electrónico"
-                    required>
+                  <input type="email" class="form-control" id="email" name="email" required=""
+                    placeholder="Correo electrónico">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="text" placeholder="Teléfono" id="phone_number" name="phone_number" class="form-control">
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="text" placeholder="Asunto" id="subject" name="subject" required="" class="form-control">
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <textarea class="form-control" id="message" name="message" required="" rows="5" placeholder="Mensaje"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
